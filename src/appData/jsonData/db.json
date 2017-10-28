@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Example in how to fill data",
+    "year": "2010",
+    "genre": ["RPG", "Action"],
+    "picture": "www.thepic.commm",
+    "description": "lorem  lkjlkjlkjlkjlkjlkjlkj",
+    "price": 15,
+    "stock": 4
+  },
+  {
+    "name": "",
+    "year": "",
+    "genre": [""],
+    "picture": "",
+    "description": "j",
+    "price": 0,
+    "stock": 0
+  }
+]
