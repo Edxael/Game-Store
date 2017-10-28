@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Banner from '../img/logo2.png'
+import Banner from '../img/logo1.jpg'
 
 export default class extends Component {
   render() {
