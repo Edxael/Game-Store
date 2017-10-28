@@ -1,10 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import MainComp from './appData/01-Main.jsx'
+
 const IndexComp = () => {
   return (
     <div>
       <div>Hello</div>
+      <MainComp/>
     </div>
   )
 }
