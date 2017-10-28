@@ -10,11 +10,55 @@
   },
   {
     "name": "",
-    "year": "",
+    "year": ,
     "genre": [""],
     "picture": "",
     "description": "",
     "price": 0,
     "stock": 0
-  }
-]
+  },
+  {
+    "name": "Mass Efect",
+    "year": 2003,
+    "genre": ["RPG", "Shooter", "Action"],
+    "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/masse.jpg",
+    "description": "sdjhfkasjdhfjasldkfjhlasjdflasjdhfljhasldfjhlsdfjh",
+    "price": 15,
+    "stock": 2
+  },
+  {
+    "name": "Bioshock 2 ",
+    "year": ,
+    "genre": ["Shooter"],
+    "picture": "",
+    "description": "",
+    "price": 0,
+    "stock": 0
+  },
+  {
+    "name": "Call of Duty 3",
+    "year": ,
+    "genre": ["Shooter"],
+    "picture": "",
+    "description": "",
+    "price": 0,
+    "stock": 0
+  },
+  {
+    "name": "Elder Scrolls Online",
+    "year": ,
+    "genre": ["MMO", "RPG"],
+    "picture": "",
+    "description": "",
+    "price": 0,
+    "stock": 0
+  },
+  {
+    "name": "",
+    "year": ,
+    "genre": [""],
+    "picture": "",
+    "description": "",
+    "price": 0,
+    "stock": 0
+  },
