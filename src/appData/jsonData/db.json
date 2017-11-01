@@ -498,7 +498,7 @@
   "genre": ["Action"],
   "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/tombr.jpg",
   "description": "Rise of the Tomb Raider is a third-person action-adventure game that features similar gameplay found in 2013's Tomb Raider. Players control Lara Croft through various environments, battling enemies, and completing puzzle platforming sections, while using improvised weapons and gadgets in order to progress through the story.",
-  "price": 1,000,000,
+  "price": 1000000,
   "stock": 2
 },
   {
@@ -507,7 +507,7 @@
   "genre": ["Shooter"],
   "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/wolf2.jpg",
   "description": "Wolfenstein II: The New Colossus is an action-adventure shooter game played from a first-person perspective. To progress through the story, players battle enemies throughout levels. The game utilizes a health system in which players' health is divided into separate sections that regenerate; if an entire section is lost, players must use a health pack to replenish the missing health.[2] Players use melee attacks, firearms, and explosives to fight enemies, and may run, jump, and occasionally swim to navigate through the locations. Melee attacks can be used to silently take down enemies without being detected. Alternatively, players can ambush enemies, which often results in an intense firefight between the two parties. Enemy commanders can call for reinforcements several times.",
-  "price": 1,000,000,
+  "price": 1000000,
   "stock": 3
 },
   {
@@ -516,7 +516,7 @@
   "genre": ["Action"],
   "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/zeld3.jpg",
   "description": "The Legend of Zelda: Breath of the Wild departs from most games in The Legend of Zelda series, as it features an open-world environment, twelve times larger than the overworld in Twilight Princess, with less emphasis on defined entrances and exits to areas.[1] Similar to the original The Legend of Zelda, the player is placed into the game's world with very little instruction, and is allowed to explore freely at their own pace",
-  "price": 1,000,000,
+  "price": 1000000,
   "stock": 9
 },
   {
@@ -525,7 +525,7 @@
   "genre": ["Action"],
   "picture": "",
   "description": "ike Ocarina of Time and Majora's Mask, The Wind Waker is an open world action-adventure game with role-playing elements. The control scheme is comparable to its predecessors: the player moves the protagonist Link in three dimensions from a third-person perspective.[1] Link fights with a sword and shield, and can use a variety of other items and weapons. He interacts with non-player characters and objects via the action button.[2] Like the previous games, The Wind Waker features a targeting system allowing Link to "lock on" and constantly face an enemy or target.[3] A new feature is the ability to move the camera system around Link.[4] Onscreen meters track Link's health and magic; Link can expand his health meter by finding "heart containers" and container pieces in the game",
-  "price": 1,000,000,
-  "stock": 1,000,000
+  "price": 1000000,
+  "stock": 1000000
 },
   ]
