@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { graphql } from 'react-apollo'
 import gql from 'graphql-tag'
 
-import Menu from './comps/01-Menu.jsx'
 
 
 class ISearch extends Component {
@@ -12,7 +11,7 @@ class ISearch extends Component {
     return(
       <div>
         <div>02-ItemSearch</div>
-        <Menu />
+        
       </div>
     )
   }

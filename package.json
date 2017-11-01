@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "apollo-client-preset": "^1.0.1",
+    "bootstrap": "^3.3.7",
     "graphql": "^0.11.7",
     "graphql-tag": "^2.5.0",
     "react": "^16.0.0",
@@ -12,6 +13,7 @@
     "react-dom": "^16.0.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.14",
+    "react-transition-group": "^2.2.1",
     "reactstrap": "^4.8.0"
   },
   "devDependencies": {
