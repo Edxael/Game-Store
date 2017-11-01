@@ -1,64 +1,531 @@
 [
-  {
-    "name": "Example in how to fill data",
-    "year": "2010",
-    "genre": ["RPG", "Action"],
-    "picture": "www.thepic.commm",
-    "description": "lorem  lkjlkjlkjlkjlkjlkjlkj",
-    "price": 15,
-    "stock": 4
-  },
-  {
-    "name": "",
-    "year": ,
-    "genre": [""],
-    "picture": "",
-    "description": "",
-    "price": 0,
-    "stock": 0
-  },
+
   {
     "name": "Mass Efect",
-    "year": 2003,
+    "year": 2007,
     "genre": ["RPG", "Shooter", "Action"],
     "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/masse.jpg",
-    "description": "sdjhfkasjdhfjasldkfjhlasjdflasjdhfljhasldfjhlsdfjh",
+    "description": "Mass Effect (2007), the first game in the series, was originally created as an exclusive title for the Xbox 360 but was later ported to Microsoft Windows by Demiurge Studios, and to the PlayStation 3 by Edge of Reality. The game focuses on the protagonist, Commander Shepard, and their quest to stop the rogue Spectre Saren Arterius from leading an army of sentient machines, called the Geth, to conquer the galaxy. During pursuit of Saren, Shepard learns of a far greater threat in the form of the Reapers. Saren has been mentally enslaved by the Reaper vanguard Sovereign, and sent into Citadel Space to initiate the purge of all advanced organic life in the galaxy, a cycle repeated by the Reapers every 50,000 years.",
     "price": 15,
     "stock": 2
   },
+
   {
     "name": "Bioshock 2 ",
-    "year": ,
+    "year": 2007 ,
     "genre": ["Shooter"],
-    "picture": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
-    "description": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-    "price": 0,
-    "stock": 0
+    "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/biosh.jpg",
+    "description": "BioShock 2 is set in the fictional city of Rapture, hidden from the rest of the world underwater. Rapture was the realized vision of Andrew Ryan, who built the city to escape the tyranny of governments. Despite the apparent utopia, class distinctions grew, and former gangster and businessman Frank Fontaine used his influence of the lower class to plan a coup of Rapture. Fontaine created black market routes with the surface world, and together with Dr. Brigid Tenenbaum, created a cheap plasmid industry by mass-producing ADAM through the implanting of the slugs in the stomachs of orphaned girls, nicknamed "Little Sisters". Fontaine used his plasmid-enhanced army to attack Ryan, but reportedly was killed in the battle.",
+    "price": 20,
+    "stock": 3
   },
+
   {
-    "name": "Call of Duty 3",
-    "year": ,
+    "name": "Call of Duty Modern Warfare 3",
+    "year": 2011 ,
     "genre": ["Shooter"],
-    "picture": "",
-    "description": "",
-    "price": 0,
-    "stock": 0
+    "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/Call3.jpg",
+    "description": "The game sees the return of former Task Force 141 Cpt. John Soap MacTavish (voiced by Kevin McKidd), former S.A.S. Cpt. John Price (Billy Murray) and Russian informant Nikolai, who are on the run after killing the rogue U.S. Army Lt. General Shepherd, the main antagonist of the previous game. However, for most of the game, the player will control Yuri (Brian Bloom), an ex-Spetsnaz,[23] who joins Price on his hunt for Russian Ultranationalist leader Vladimir Makarov (Roman Varshavsky). Makarov returns as the game's main antagonist,[24] and has a new contact named "Volk", a Russian bombmaker in Paris, France. Several new playable characters have been added, including: Delta Force operative Staff Sergeant Derek "Frost" Westbrook; S.A.S. Sgt. Marcus Burns; and Andrei Harkov, a Russian federal security agent tasked with protecting the Russian President. Just like President Al-Fulani in the first game, Soap is only "playable" during the game's opening sequence; while Price becomes the player character in the game's final mission, Dust to Dust. The player also takes brief control of a civilian tourist in London, seconds before he and his family are killed by a chemical agent; as well as an AC-130 TV Operator during Team Metal's escape from Paris in the mission Iron Lady.",
+    "price": 12,
+    "stock": 1
   },
+
   {
     "name": "Elder Scrolls Online",
-    "year": ,
-    "genre": ["MMO", "RPG"],
-    "picture": "",
-    "description": "",
-    "price": 0,
-    "stock": 0
+    "year": 2014 ,
+    "genre": ["MMORPG"],
+    "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/Elder.jpg",
+    "description": "As with other games in The Elder Scrolls series, the game is set on the continent of Tamriel. The events of the game occur a millennium before those of The Elder Scrolls V: Skyrim and around 800 years before The Elder Scrolls III: Morrowind and The Elder Scrolls IV: Oblivion. It has a broadly similar structure to Skyrim, with two separate conflicts progressing at the same time, one with the fate of the world in the balance, and one where the prize is supreme power on Tamriel. In The Elder Scrolls Online, the first struggle is against the Daedric Prince Molag Bal, who is attempting to meld the plane of Mundus with his realm of Coldharbour, and the second is to capture the vacant imperial throne, contested by three alliances of the mortal races. The player character has been sacrificed to Molag Bal, and Molag Bal has stolen their soul, the recovery of which is the primary game objective.[1]",
+    "price": 10,
+    "stock": 2
+  },
+
+  {
+    "name": "Far Cry 5",
+    "year": 2018 ,
+    "genre": ["Shooter", "RPG"],
+    "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/Farc5.jpg",
+    "description": "The game is set in the fictional Hope County, Montana, where a preacher named Joseph Seed has risen to prominence. Seed believes that he has been chosen to protect the people of Hope County from an inevitable collapse and has established a congregation called Eden's Gate. Ostensibly, this is to fulfill his mission of leading the people to salvation;[8] in reality, Seed is a radical preacher and Eden's Gate is a militaristic doomsday cult. Under his rule, Eden's Gate has used both coercion and violence to forcibly convert the residents of Hope County, and intimidation to keep them from contacting the outside world for help. When an attempt to arrest Seed ends with the deaths of several lawmen, the player is swept into the armed conflict between Eden's Gate and the remaining Hope County residents who are organizing themselves into a resistance movement.[8]The player takes on the role of a sheriff's deputy who is part of the task force sent to Hope County to arrest Seed. Seed has assumed the title of the Father and maintains control over Hope County with the aid of his siblings, known as the Heralds: Jacob, a former military officer that oversees their armed soldiers; John, a lawyer that has been able to acquire much of the land in Hope County for Eden's Gate; and Faith, who acts as a pacifist to bring the people to believe and trust in her older brother.[8] The residents of Hope County opposed to Seed include Pastor Jeffries, a local church leader that has seen his congregation taken by Eden's Gate; Mary May, a bartender whose father was driven to suicide by the cult; and Nick Rye, a cropduster pilot who wants to eliminate the influence of the cult in order to build a better future for his children.[9]",
+    "price": 60,
+    "stock": 20
+  },
+
+  {
+    "name": "The Witcher 3 Wild Hunt",
+    "year": 2015 ,
+    "genre": [""RPG],
+    "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/Wtcr3.jpg",
+    "description": "The Witcher 3: Wild Hunt (Polish: Wiedźmin 3: Dziki Gon) is a 2015 action role-playing video game developed by CD Projekt RED and published by CD Projekt. Based on The Witcher series of fantasy novels by Polish author Andrzej Sapkowski, it is the sequel to the 2011 video game The Witcher 2: Assassins of Kings and the third installment in The Witcher video-game series. Played in an open world with a third-person perspective, players control protagonist Geralt of Rivia. Geralt is a monster hunter (known as a Witcher) looking for his missing adopted daughter, who is on the run from the Wild Hunt: an otherworldly force determined to capture and use her powers. Players battle the game world's many dangers with weapons and magic, interact with non-player characters, and complete main-story and side quests to acquire experience points and gold (used to increase Geralt's abilities and purchase equipment). Its central story has several endings, determined by Geralt's choices (made by the player) at certain points in the game.",
+    "price": 50,
+    "stock": 5
   },
   {
-    "name": "",
-    "year": ,
-    "genre": [""],
-    "picture": "",
-    "description": "",
-    "price": 0,
-    "stock": 0
+  "name": "Assassins Creed Origins",
+  "year": ,
+  "genre": ["RPG"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/acrd6.jpg",
+  "description": "Assassin's Creed Origins is an action-adventure stealth game played from a third-person perspective. Players complete quests—linear scenarios with set objectives—to progress through the story, earn experience points, and acquire new skills. Outside of quests, players can freely roam the open world environment on foot, horseback, camel-back or boat to explore locations, complete optional side-quests and unlock weapons and equipment."
+  "price": 15,
+  "stock": 1
+},
+  {
+  "name": "Alien Isolation",
+  "year": 2013 ,
+  "genre": ["survival", "Horrow"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/alien.jpg",
+  "description": "Alien: Isolation is a survival horror video game developed by Creative Assembly and based on the Alien science fiction horror film series. It was published by Sega and originally released for Microsoft Windows, PlayStation 3, PlayStation 4, Xbox 360 and Xbox One on 7 October 2014. The game is set 15 years after the events of Ridley Scott's 1979 Alien film and follows Amanda Ripley, daughter of Alien protagonist Ellen Ripley, and her efforts to investigate the disappearance of her mother.",
+  "price": 15,
+  "stock": 1
+},
+
+  {
+  "name": "Batman Arkham Origins",
+  "year": 2013,
+  "genre": ["RPG"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/bataa.jpg",
+  "description": "The events in Arkham Origins take place about five years before Batman: Arkham Asylum, in midwinter Gotham City.[44][74] Batman, an experienced crime-fighter in the second year of his career, is not yet the veteran superhero of Arkham Asylum and Arkham City.[24][74] He is a mysterious force; even the police do not know whether he is a vigilante, a myth or a supernatural being.[75] Batman has fought ordinary criminals and gangsters, and is accustomed to being stronger and faster than his opponents.[40] However, on a snowy Christmas Eve he is confronted with more-dangerous foes: eight professional assassins hoping to collect a $50-million bounty placed on Batman's head by Black Mask.[74][76] Villains (including the Joker) take advantage of the assassins' arrival to launch their own schemes, and Black Mask's henchmen instigate a rise in crime and gang activity in the city.[8][44]",
+  "price": 15,
+  "stock": 9
+},
+  {
+  "name": "Borderlands",
+  "year": 2009 ,
+  "genre": ["Shooter", "RPG"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/borde.jpg",
+  "description": "Borderlands begins some time after the Dahl Corporation's abandonment of the planet Pandora as several fortune seekers, including the player's character, arrive in search of the fabled Vault. After discovering the town of Fyrestone, the player begins to receive instructions from an image of a mysterious woman known as the Guardian Angel. The player meets a Claptrap robot and a man named Dr. Zed who helped the player establish a reputation by killing several bandit leaders, eventually leading to the collection of the first alien artifact needed to open the Vault. This causes Patricia Tannis, Dahl's former archaeologist still in residence on the planet, to contact the player, revealing that the Vault can only be accessed once every 200 years and that the time of the next opening is approaching. Tannis also explains that three more artifacts are needed to complete the Vault Key. Meanwhile, Commandant Steele of the Crimson Lance (a well-outfitted mercenary force hired by the Atlas Corporation) threatens to declare martial law and demands the Vault Key pieces.",
+  "price": 15,
+  "stock": 7
+},
+  {
+  "name": "Metal Gear Solid",
+  "year": 1998 ,
+  "genre": ["Action", "shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/calld.jpg",
+  "description": "The player must navigate the protagonist, Solid Snake, through the game's areas without being detected by enemies.[16] Detection is triggered by the player moving into an enemy's field of vision and sets off an alarm that draws armed enemies to his location.[17] This also triggers alert mode and the player must then hide and remain undetected, at which point “evasion mode” begins and once the counter reaches zero the game returns to "infiltration mode" where enemies are not suspicious of Snake’s presence. The radar cannot be used in alert or evasion mode. In addition to the stealth gameplay, there are set piece sequences that entail firefights between the player and enemies.[18]",
+  "price": 15,
+  "stock": 6
+},
+  {
+  "name": "Call of Duty World War 2",
+  "year": 2017 ,
+  "genre": ["shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/calld.jpg",
+  "description": "Similar to its predecessors, Call of Duty: WWII is a first-person shooter game but it removes the advanced system of movement present in the three previous Call of Duty titles, which included double jumping and wall running. Instead, it features a return of traditional movement to the series, taking it back to a boots on the ground gameplay style. The game does not feature an unlimited sprint mechanic, seen in the previous two titles.[3] Instead of a "slide" movement mechanic, which allowed players to slide quickly on the ground, WWII features a "hit-the-deck" mechanic that allows the player to leap forward and throw themselves on the ground in order to get to cover quickly, similarly to a previous mechanic known as "dolphin dive" in Treyarch's Call of Duty: Black Ops and Call of Duty: Black Ops II.[4]",
+  "price": 15,
+  "stock": 3
+},
+  {
+  "name": "Crash Bandicoot",
+  "year": 2016 ,
+  "genre": ["Adventure"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/crash.jpg",
+  "description": "Crash Bandicoot N. Sane Trilogy is a platform video game compilation developed by Vicarious Visions and published by Activision for PlayStation 4. It is a collection of remasters of the first three titles in the Crash Bandicoot series: Crash Bandicoot, Cortex Strikes Back, and Warped, which were originally developed by Naughty Dog for the PlayStation in the 1990s. The game was released on June 30, 2017, receiving generally favorable reviews from critics, who praised the game's faithfulness to the original trilogy."
+  "price": 15,
+  "stock": 2
+},
+  {
+  "name": "Just Dance 2018",
+  "year": 2017 ,
+  "genre": ["Rythm Party Game"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/dance.jpg",
+  "description": "As with the previous installments of the franchise, players must mimic the on-screen dancer's choreography to a chosen song using either motion controllers, including the game's associated mobile app on a smartphone. A new Super judgment was added between Good and Perfect.[2] The Dance Lab mode features medleys of choreography representing different professions and animals,[2] while a new Kids Mode was designed to provide a gameplay experience and choreography tailored towards younger players.[2]",
+  "price": 15,
+  "stock": 0
+},
+  {
+  "name": "Dark Souls 3",
+  "year": 2017 ,
+  "genre": ["RPG"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/dark.jpg",
+  "description": "Set in the Kingdom of Lothric, a bell has rung to signal that the First Flame, responsible for maintaining the Age of Fire, is dying out. As has happened many times before, the coming of the Age of Dark produces the undead, cursed beings that rise up after death. The Age of Fire can be prolonged with the linking of the fires, a ritual in which great lords and heroes sacrifice their souls to rekindle the First Flame. However, Prince Lothric, the chosen linker for this age, has abandoned his duty and instead chooses to watch the flame die from afar. The bell is the last hope for the Age of Fire, resurrecting previous Lords of Cinder (heroes who linked the flame in past ages) to attempt to link the fire again, but all but one Lord shirk their duty.",
+  "price": 15,
+  "stock": 9
+},
+  {
+  "name": "Dead Space",
+  "year": 2008 ,
+  "genre": ["Shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/deads.jpg",
+  "description": "The story is set in the year 2508, and begins when the USG Ishimura (石村, lit. Stone Village), a planet-cracker starship (designed to extract ore in large masses of billions of tons), sends out a distress signal to the Concordance Extraction Corporation (CEC) during a mining operation on the planet Aegis VII. The CEC dispatches the USG Kellion to investigate. After a guidance system malfunction crashes the Kellion into the Ishimura dock, the crew tries to seek other means of transport.[12] As they explore what appears to be an abandoned ship, they are attacked by grotesque monsters, killing off all but ship systems engineer Isaac Clarke, Commander Zach Hammond (Peter Mensah), and Computer Specialist Kendra Daniels (Tonantzin Carmelo). Hammond notices that many of the ship's systems are failing; he and Daniels direct and assist Isaac in fixing them to keep them alive for rescue.[13][14]",
+  "price": 15,
+  "stock": 6
+},
+  {
+  "name": "Doom",
+  "year": 2016 ,
+  "genre": ["Shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/doom1.jpg",
+  "description": "In a research facility on Mars owned by the Union Aerospace Corporation, facility director Samuel Hayden's mind now inhabits an android body after having lost his original to brain cancer. Researchers attempted to draw energy from Hell in order to solve an energy crisis on Earth using the Argent Tower, which siphons energy and allows travel to and from Hell.[27] Hayden has already led multiple expeditions into Hell, bringing back captive demons and artifacts for study. One artifact was a sarcophagus containing the Doom Slayer (along with his Praetor Suit), whom the demons imprisoned after his earlier rampage through Hell.",
+  "price": 15,
+  "stock": 9
+},
+  {
+  "name": "Elex",
+  "year": 2017 ,
+  "genre": [""],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/elex1.jpg",
+  "description": "Magalan was a planet looking to the future. Then a meteor hit the planet, causing massive destruction. Those who survived are now trapped in a battle to survive, and a struggle to decide the fate of the planet. At the center of this fight is the element ELEX, a precious and limited resource that arrived with the meteor, which can power machines, give magical powers, or re-sculpt life into new, different forms. The protagonist is a former member of the Albs, who consume ELEX as a way to rid themselves of emotions and enable them to make decisions based on cold logic alone.[5]",
+  "price": 15,
+  "stock": 2
+},
+  {
+  "name": "Fallout 4",
+  "year": 2105 ,
+  "genre": ["RPG", 'Shooter'],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/fall4.jpg",
+  "description": "Fallout 4 is an action role-playing game set in an open world environment, gameplay is similar to that of Fallout 3 and Fallout: New Vegas, the two previous primary iterations in the series. Returning features include a camera that can switch between a first-person and third-person perspective. Fallout 4 introduces features including a layered armor system, base-building, a dynamic dialogue system featuring 111,000 lines of dialogue,[1] an in-depth crafting system which implements every lootable object in the game, and much more. Enemies such as Mole Rats, Raiders, Super Mutants, Deathclaws, and Feral Ghouls return in Fallout 4, along with the companion Dogmeat.[2]",
+  "price": 15,
+  "stock": 3
+},
+  {
+  "name": "Fifa 2018",
+  "year": 2017 ,
+  "genre": ["Sports"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/fif18.jpg",
+  "description": "FIFA 18 is a sports video game that simulates association football. The game features 52 fully licensed stadiums from 12 countries, including new stadiums, plus 30 generic fields equals to a total of 82. All 20 Premier League stadiums are represented in the series.[3] Commentary is once again provided by Martin Tyler, Alan Smith, Alan McInally (in-game score updates), Geoff Shreeves (injury reports), Ron Atkinson (analysis), Mike West (classified results), Clive Tyldesley and Andy Townsend (men's international matches).",
+  "price": 15,
+  "stock": 2
+},
+  {
+  "name": "For Honor",
+  "year": 2017 ,
+  "genre": ["Fighting"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/forho.jpg",
+  "description": "For Honor is an action fighting game set during a medieval period inspired fantasy setting.[2] Players can play as a character from three different factions, namely The Blackstone Legion Knights, The Chosen Samurai, and The Warborn Vikings. The three factions represent knights, samurai, and vikings, respectively.[3] Each faction had four classes at launch, with two more being added at the beginning of every season of the Faction War. The Vanguard class is described as well-balanced and has excellent offense and defense. The Assassin class is fast and efficient in dueling enemies, but the class deals much less damage to enemies. The Heavies are more resistant to damages and are suitable for holding capture points, though their attacks are slow. The last class, known as "Hybrids", are a combination of two of the three types, and is capable of using uncommon skills.",
+  "price": 15,
+  "stock": 2
+},
+  {
+  "name": "Gears of War 4",
+  "year": 2016 ,
+  "genre": ["Shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/gears.jpg",
+  "description": "Gears of War 4 takes place 25 years after the Imulsion Countermeasure weapon destroyed all Imulsion on the planet Sera, taking the Locust and the Lambent with them as well.[5] Unfortunately, this also knocked out the use of fossil fuels, forcing humanity to adapt new ways for survival. The countermeasure also brought the advent of Windflares, powerful windstorms that form across the planet.[5] Following the aftermath of the Lambent Epidemic, the reformed Coalition of Ordered Governments estimated that only hundreds of thousands of humans are left on Sera. To prevent the population from declining, walled-off cities were built to protect the citizens from the dangers outside. The COG also declared martial law, preventing any travel from outside of city walls. Some human survivors rejected the viewpoints of the COG and formed a group called the Outsiders that live outside of the COG jurisdiction, conducting raids on COG territory to gather resources.[5] The game focuses on the son of Marcus Fenix and Anya Stroud, J.D. Fenix (Liam McIntyre),[6] who, alongside his friends Delmont Del Walker (Eugene Byrd)[6] and Kait Diaz (Laura Bailey)[6] deal with a new threat to humanity's survival.",
+  "price": 15,
+  "stock": 4
+},
+  {
+  "name": "Gpd of War Ascension",
+  "year": 2013 ,
+  "genre": [""],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/godof.jpg",
+  "description": "In both of God of War: Ascension's single-player and multiplayer elements, it is primarily a third-person video game viewed from a fixed camera perspective. Some scenes in the single-player campaign feature a first-person camera view. In single-player mode, the player controls the character Kratos in combo-based combat, platforming, and puzzle games. The enemies are an assortment of creatures, most of whom are drawn from Greek mythology, including cyclopes, cerberuses, empusas, Sirens, Gorgons, satyrs, harpies, and centaurs. Other monsters were created specifically for the game, such as the juggernauts, wraiths, and manticores. Many of the monsters also appear in the multiplayer mode. Platforming elements require the player to climb walls and ladders, jump across chasms, and slide down walls to proceed through sections of the game. The game features a variety of puzzles, ranging from simple to complex.[4][5",
+  "price": 15,
+  "stock": 3
+},
+  {
+  "name": "God of War 2",
+  "year": 2005 ,
+  "genre": [""],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/gowar.jpg",
+  "description": "God of War II is an action-adventure game with hack and slash elements. It's a third-person single-player video game viewed from a fixed camera perspective. The player controls the character Kratos in combo-based combat, platforming, and puzzle game elements, and battles foes who primarily stem from Greek mythology, including harpies, minotaurs, Gorgons, griffins, cyclopes, cerberuses, Sirens, satyrs, and nymphs. Other monsters were created specifically for the game, including undead legionnaires, ravens, undead barbarians, beast lords, rabid hounds, wild boars, and the army of the Fates, including sentries, guardians, juggernauts, and high priests. Many of the combination attacks used in God of War reappear, and the game features more than double the amount of boss fights and more difficult puzzles than the original.[7] Platforming elements require the player to climb walls and ladders, jump across chasms, swing on ropes, and balance across beams to proceed through sections of the game. Some puzzles are simple, such as moving a box so that the player can use it as a jumping-off point to access a pathway unreachable with normal jumping, while others are more complex, such as finding several items across different areas of the game to unlock one door.[8]",
+  "price": 15,
+  "stock": 2
+},
+  {
+  "name": "Grand Theft Auto 5",
+  "year": 2013 ,
+  "genre": [""],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/grand.jpg",
+  "description": "Grand Theft Auto V is an action-adventure game[2] played from either a first-person[3][b] or third-person perspective.[4] Players complete missions—linear scenarios with set objectives—to progress through the story.[5] Outside the missions, players may freely roam the open world. Composed of the San Andreas open countryside area and the fictional city of Los Santos, the world is much larger in area than earlier entries in the series.[6][c] It may be fully explored after the game's beginning without restriction, although story progress unlocks more gameplay content.[8]",
+"price": 15,
+"stock": 2
+},
+  {
+  "name": "Guitar Hero Live",
+  "year": 2015 ,
+  "genre": ["Party"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/guita.jpg",
+  "description": "Guitar Hero Live is a music video game developed by FreeStyleGames and published by Activision. It was released for PlayStation 3, PlayStation 4, Wii U, Xbox 360, and Xbox One in October 2015 and to iOS devices including Apple TV in November 2015. As with previous games in the series, the goal is to use a special guitar controller to match fret patterns displayed on a scrolling note pattern on screen in time with the music.",
+  "price": 20,
+  "stock": 1
+},
+  {
+  "name": "Halo Combat Evolved",
+  "year": 2001 ,
+  "genre": ["Shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/halo1.jpg",
+  "description": "As a first-person shooter, the gameplay of Halo: Combat Evolved is fundamentally similar to that of its peers, focusing on combat in a 3D environment that is viewed almost entirely from a character's eye view. The player can move around and look up, down, left, or right.[21] The game features vehicles, ranging from armored jeeps and tanks to alien hovercraft and aircraft, many of which can be controlled by the player. The game switches to a third-person perspective during vehicle use for pilots and mounted gun operators; passengers maintain a first-person view.[11] The game's heads-up display includes a motion tracker that registers moving allies, moving or firing enemies, and vehicles, in a certain radius of the player.[22",
+  "price": 20,
+  "stock":
+},
+  {
+  "name": "Halo 2",
+  "year": 2004 ,
+  "genre": ["Shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/halo2.jpg",
+  "description": "Halo 2 is a shooter game, with players predominantly experiencing gameplay from a first-person perspective.[13] Players use a combination of human and alien weaponry and vehicles to progress through the game's levels. The player's health bar is not visible, but players are instead equipped with a damage-absorbing shield that regenerates when not taking fire.[14]",
+  "price": 20,
+  "stock": 2
+},
+  {
+  "name": "Halo 3",
+  "year": 2007 ,
+  "genre": ["Shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/halo3.jpg",
+  "description": "Halo 3 is a shooter game where players primarily experience gameplay from a first-person perspective. Much of the gameplay takes place on foot, but also includes segments focused on vehicular combat. The balance of weapons and objects in the game was adjusted to better adhere to the Golden Triangle of Halo: these are weapons, grenades, and melee attacks, which are available to a player in most situations. Players may dual-wield some weapons, forgoing the use of grenades and melee attacks in favor of the combined firepower of two weapons. Many weapons available in previous installments of the series return with minor cosmetic and power alterations. Unlike previous installments, the player's secondary weapon is visible on their player model, holstered or slung across the player's back.[8]",
+  "price": 20,
+  "stock": 1
+},
+  {
+  "name": "Halo 4",
+  "year": 2011 ,
+  "genre": ["Shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/halo4.jpg",
+  "description": "Halo 4 is a shooter game in which players predominantly experience gameplay from a first-person perspective; the game perspective switches to third-person when using certain weapons, abilities and vehicles. The player's head-up display (HUD) shows real-time information on the player character's armor system, such as shield status, information on current weapons and abilities, and waypoints for goals and objectives. The HUD also has a motion tracker that detects allies, enemies, and vehicles within a certain radius of the player.[1] The game sees the return of the alien species who were formerly members of the Covenant as foes, and introduces a new type of enemy called the Prometheans, which are Forerunner A.I constructs. There are three types of Prometheans: Knights serve as leaders of the group and are considered the deadliest of the Promethean forces; Crawlers are a weaker class that often attack in packs; and Watchers offer support and have the ability to shield or revive Promethean allies.[2][3]",
+  "price": 20,
+  "stock": 1
+},
+  {
+  "name": "Halo 5 Guardians",
+  "year": 2015 ,
+  "genre": ["shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/halo5.jpg",
+  "description": "Halo 5: Guardians is a first-person shooter, with players experiencing most gameplay through the eyes of a playable character. The camera switches to a third-person view for some cinematics and gameplay sequences.",
+  "price": 20,
+  "stock": 2
+},
+  {
+  "name": "Halo Reach",
+  "year": 2010 ,
+  "genre": ["Shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/halor.jpg",
+  "description": "Halo: Reach is a first-person shooter video game developed by Bungie and published by Microsoft Game Studios for the Xbox 360 home video game console. The sixth installment in the Halo series, Reach was released worldwide in September 2010. The game takes place in the year 2552, where humanity is locked in a war with the alien Covenant. Players control Noble Six, a member of an elite supersoldier squad, when the human world known as Reach falls under Covenant attack.",
+  "price": 20,
+  "stock": 1
+},
+  {
+  "name": "Hunter Call of the Wild",
+  "year": 2015 ,
+  "genre": ["Hunting" "Shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/hunter.jpg",
+  "description": "The Hunter is a first-person hunting game that recreates hunting wild animals in as realistic manner as possible. The initial setting is on an open world island based on various locations, including the islands and surroundings of Washington state in the United States, Australian Outback, French Alps and more. It features five huntable animal types whitetail deer, european rabbit, cottontail rabbit, snowshoe hare and pheasant. The game is fully playable for no charge, but the game's full ability can be only unlocked with paid membership which allows to hunt all species and provides replenishing ammo for the obtained weapons.",
+  "price": 20,
+  "stock": 9
+},
+  {
+  "name": "Lego Marvel Super Heroes",
+  "year": 2016 ,
+  "genre": ["https://github.com/Edxael/Images/blob/master/03-GamePics/legoa.jpg"],
+  "picture": "",
+  "description": "Following the gameplay style of past Lego titles, players are able to control 180 characters from the Marvel Universe, each with their own unique abilities.[5][6] For example, Spider-Man can swing on his webs and use his spider-sense while the Hulk, who is larger than the standard minifigures, can throw large objects, as well as shrink down into Bruce Banner to access computers.[7][8] Galactus was chosen as the main antagonist in the game.[9] According to game director, Arthur Parsons, and producer, Phil Ring, one of the main settings of Lego Marvel Super Heroes is a Lego version of New York City.[10] In addition, a Lego version of Asgard was created.[11]",
+  "price": 20,
+  "stock": 9
+},
+  {
+  "name": "Lego Worlds",
+  "year": 2017 ,
+  "genre": ["https://github.com/Edxael/Images/blob/master/03-GamePics/legow.jpg"],
+  "picture": "",
+  "description": "Lego Worlds is a sandbox video game which allows players to build a world made up of Lego bricks.[4][5] The player is rewarded for collecting objects spread across the map with studs, an in-game currency. The player can build using the items they have encountered. Players can create their own world by using predefined Lego structures or using the brick-by-brick editor tool. Players' appearances and outfits are customizable in the game. Terrain and environment can be modified via landscaping tools. A variety of vehicles, such as helicopters, and creatures are featured in the game. A multiplayer option and features for world-sharing have been added to the game through later updates.[6]",
+  "price": 20,
+  "stock": 4
+},
+  {
+  "name": "Mine Craft",
+  "year": 2011 ,
+  "genre": [""],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/minec.jpg",
+  "description": "Minecraft is a three-dimensional sandbox game that has no specific goals for the player to accomplish, allowing players a large amount of freedom in choosing how to play the game.[14] Gameplay is in the first-person perspective by default, and players have the option to play in third-person.[15] The game world is composed of rough 3D objects—mainly cubes and fluids—representing various materials, such as dirt, stone, ores, tree trunks, water and lava. The core gameplay revolves around breaking and placing these objects. These blocks are arranged in a 3D grid, while players can move freely around the world. Players can "mine" blocks and then place them elsewhere, which allows for constructions to be built.[16]",
+  "price": 20,
+  "stock": 3
+},
+  {
+  "name": "Morrowind",
+  "year": 2002 ,
+  "genre": ["https://github.com/Edxael/Images/blob/master/03-GamePics/morro.jpg"],
+  "picture": "",
+  "description": "The Elder Scrolls III: Morrowind is an open-world, fantasy, action role-playing video game developed by Bethesda Game Studios and published by Bethesda Softworks. It is the third installment in The Elder Scrolls series of games, following The Elder Scrolls II: Daggerfall, and preceding The Elder Scrolls IV: Oblivion. It was released in North America in 2002 for Microsoft Windows and Xbox. The main story takes place on Vvardenfell, an island in the Dunmer province of Morrowind, part of the empire of Tamriel. The central quests concern the deity Dagoth Ur, housed within the volcanic Red Mountain, who seeks to gain power and break Morrowind free from Imperial reign.[1][2][3] Although primarily a fantasy game, with many game-play elements and Western medieval and fantasy fiction tropes inspired by Dungeons & Dragons and previous RPGs, it also features some steampunk elements, and drew considerable inspiration from Middle Eastern art, architecture, and cultures.",
+  "price": 20,
+  "stock": 4
+},
+  {
+  "name": "NBA 2K17",
+  "year": 2016: ,
+  "genre": ["Sports"],
+  "picture": "",
+  "description": "NBA 2K17 is a basketball simulation game which, like the previous games in the series, strives to realistically depict the experience of the National Basketball Association (NBA), as well as present improvements over the previous installments.[9][10] The player mainly plays NBA basketball games with real-life or customized players and teams. As such, games follow the rules and objectives of NBA basketball games. Several game modes are available for the player and many settings can be customized. The game contains many presentation qualities that are modelled on real-life presentation, such as crowd animations, commentary, pre-game, halftime, and post-game shows, camera angles, lighting, and player animations.[7] There are eleven different commentators and announcers, including Kevin Harlan, Chris Webber, Shaquille O'Neal, David Aldridge, Brent Barry, and Doris Burke. Different arenas have different commentary teams.[10][11] The menus have also been modified.",
+  "price": 20,
+  "stock": 5
+},
+  {
+  "name": "NBA 2K18",
+  "year": 2017 ,
+  "genre": [""],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/nba18.jpg",
+  "description": "NBA 2K18 is a basketball simulation game which, like the previous games in the series, strives to realistically depict the National Basketball Association (NBA), as well as present improvements over the previous installments. The player mainly plays NBA games with real-life or customized players and teams; games follow the rules and objectives of NBA games. Several game modes are present and many settings can be customized. In terms of commentary, Kobe Bryant and Kevin Garnett appear as guest commentators.[2]",
+  "price": 20,
+  "stock": 3
+},
+  {
+    "name": "Madden NFL 2018",
+    "year": 2017 ,
+    "genre": ["Sports"],
+    "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/nfl18.jpg",
+    "description": "Madden NFL 18 is the first game in the series to use the Frostbite engine.[3] While the Madden series has typically featured a Superstar career mode, Madden NFL 18 introduces a story mode known as Longshot, the first such mode in the series.[4] Longshot follows Devin Wade, a quarterback from Mathis, Texas, as he tries to reach the NFL, and includes high school and college football games (the first appearance of the latter in an EA Sports game since 2013, when EA ended the NCAA Football series), as well as the NFL Scouting Combine.[5][6][7] The player's decisions and performances in the game determine Devin's career path, as dialog trees are used to help him make decisions.[8]",
+    "price": 20,
+    "stock": 8
   },
+  {
+  "name": "NHL18",
+  "year": 2017 ,
+  "genre": ["Sports"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/nhl18.jpg",
+  "description": "NHL 18 has several new features, highlighted by the brand new NHL Threes mode, which mimics NHL overtime rules with 3-on-3 hockey. The mode features a smaller rink, bigger hits, and even a different announcer as it offers a more arcade-like look at hockey. Mascots from NHL teams are also playable in this mode.[2] Teams from HockeyAllsvenskan, EBEL and Champions Hockey League also make their first appearance. [3][4][5] The expansion franchise Vegas Golden Knights from the NHL are also playable.",
+  "price": 20,
+  "stock": 7
+},
+  {
+  "name": "Overwatch",
+  "year": 2016 ,
+  "genre": ["Shooter" "RPG"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/overw.jpg",
+  "description": "Overwatch features squad-based combat with two opposing teams of six players each.[1] Players choose one of several hero characters, each with their own unique abilities and role classes. The four character roles include: offense characters with high speed and attack but low defense, defense characters meant to form choke points for enemies, support characters that provide buffs and debuffs for their allies and enemies respectively (such as healing or speed alterations), and tank characters that have a large amount of armor and hit points to withstand enemy attacks and draw fire away from teammates. During the pre-match setup, players on a team will be given advice from the game if their team is unbalanced, such as if they are lacking defensive heroes, encouraging players to switch to other heroes pre-match and balance the starting team.[2] Within a match, players can switch between characters in-game following deaths or by returning to their home base. The game is designed to encourage players to adapt to the opposing team during a match by switching to characters that better "counter" their abilities.",
+  "price": 10,
+  "stock": 4
+},
+  {
+  "name": "Rare Replay",
+  "year": 2015 ,
+  "genre": ["Shooter" "Adventure"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/rarer.jpg",
+  "description": "Rare Replay is a compilation of 30 games developed by Rare and its predecessor, Ultimate Play the Game, over their 30-year history across platforms from the ZX Spectrum to the Xbox 360[1] (1983 to 2008), up until Rare's Kinect Sports series.[2] The 30 games span multiple genres, including fighting, first-person shooter, simulation, 3D platforming, racing, and skiing.[3] The compilation opens with a musical number featuring Rare characters. Each game has a landing page with a variation on its theme music.[2] While the core gameplay remains unedited, Rare added extra features to the older releases. The player can toggle the visual appearance of scanlines[4] and "rewind" up to ten seconds of gameplay in pre-Nintendo 64 games.[2] The older games can be saved at will and autosave progress upon the player's exit.[5] Rare also added an infinite lives cheat setting for some older games[5] and fixed a game-breaking bug in Battletoads.[6] The "Snapshots" feature presents small segments of the older games as challenges for the player, such as collecting a set amount of points in a set amount of time in a set scenario, similar in function to the NES Remix series.[4] Some Snapshots are connected sequentially as a playlist.",
+  "price": 10,
+  "stock": 3
+},
+  {
+  "name": "Rayman Legends",
+  "year": 2014 ,
+  "genre": [""],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/rayma.jpg",
+  "description": "The game carries on the style of gameplay from Rayman Origins in which up to four players (depending on the format) simultaneously make their way through various levels. Lums can be collected by touching them, defeating enemies, or freeing captured Teensies. Collecting Teensies unlocks new worlds, which can be played in any order once they are available. Along with Rayman, Globox, and the Teensies returning as playable characters, players can now control new female character Barbara and her sisters, once they are rescued from certain stages.[6]",
+  "price": 10,
+  "stock": 3
+},
+  {
+  "name": "Recore",
+  "year": 2017 ,
+  "genre": ["Action"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/recore.jpg",
+  "description": "eCore is an action-adventure platform video game developed by Comcept and Armature Studio, with major assistance by Asobo Studio, and published by Microsoft Studios for Microsoft Windows and Xbox One. The game was released worldwide in September 2016, and re-released on August 29, 2017.",
+  "price": 10,
+  "stock": 2
+},
+  {
+  "name": "Resident Eveil 2 Revelations",
+  "year": 2012 ,
+  "genre": ["Shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/resid.jpg",
+  "description": "Resident Evil: Revelations[a] is a survival horror video game developed by Capcom and originally released for the Nintendo 3DS handheld game console in 2012. Set between the Resident Evil video games Resident Evil 4 and Resident Evil 5, the game follows counter-terrorism agents Jill Valentine and Chris Redfield as they try to stop a bioterrorist organization from infecting the Earth's oceans with a virus. The game features a single-player mode where the player must complete a series of episodes that involve solving puzzles and defeating enemies, and a multiplayer mode where players may fight their way through altered single-player scenarios.",
+  "price": 10,
+  "stock": 9
+},
+  {
+  "name": "Rocksmith Remastered",
+  "year": 2011 ,
+  "genre": [""],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/rocks.jpg",
+  "description": "Rocksmith is a music video game produced by Ubisoft, released in October 2011 for the Xbox 360 and PlayStation 3 platforms in North America. Rocksmith was released on PlayStation 3 and Xbox 360 during September 2012 in Australian[5] and European markets[1][3] and October 2012 in Japan. A Windows version was released on October 16, 2012 after several delays. Based on the technology in the unreleased project Guitar Rising, the game's main focus is the unique feature that allows players to plug in virtually any electric guitar and play.",
+  "price": 10,
+  "stock": 3
+},
+  {
+  "name": "Lord of the Rings Shadow of Mordor",
+  "year": 2014 ,
+  "genre": ["RPG"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/shadw.jpg",
+  "description": "Middle-earth: Shadow of Mordor is a third-person open world action-adventure video game, where the player controls a ranger by the name of Talion who seeks revenge on the forces of Sauron after his family, consisting of his wife and son, are killed by those that lead them.[1] Players can travel across locations in the game through parkour, riding monsters, or accessing Forge Towers, which serve as fast travel points.[2][3] Though Talion is mortally felled in the game's introduction, the wraith of the Elven Lord Celebrimbor is able to use his power to keep Talion alive, along with gifting him wraith-like abilities to exact his revenge.[4] Missions in the game feature main story missions that follow Talion's quest for revenge, side missions that involve following Gollum as to find artifacts that are tied to Celebrimbor's past, missions to free the human slaves that have been captured by the Uruk armies and forced to work for Sauron, and additional quests to help forge new abilities for Talion's sword, bow, and dagger.[5][6][7] The player also has the freedom to pursue side quests and roam around Mordor, with special activities to collect specific flora or to hunt certain creatures, or to find old artifacts or Elvish seals.[8][9] Completing quests earns the player a number of rewards: experience points that are used to unlock new abilities for the player from both Talion's ranger and Celebrimbor's wraith skills, a Power value that allows the player to access more powerful abilities to unlock, and an in-game currency called "Mirian" that the player can use to improve Talion's health, wraith skill capacity, or forge new slots on his weapons to add additional runes (as described in the Nemesis System below)",
+  "price": 10,
+  "stock": 4
+},
+  {
+  "name": "Skyrim",
+  "year": 2011 ,
+  "genre": ["RPG"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/skyri.jpg",
+  "description": "The Elder Scrolls V: Skyrim is an action role-playing game, playable from either a first or third-person perspective. The player may freely roam over the land of Skyrim, which is an open world environment consisting of wilderness expanses, dungeons, cities, towns, fortresses and villages.[1] Players may navigate the game world more quickly by riding horses, or by utilizing a fast-travel system which allows them to warp to previously discovered locations.[2] The game's main quest can be completed or ignored at the player's preference after the first stage of the quest is finished. However, some quests rely on the main storyline being at least partially completed. Non-player characters (NPCs) populate the world and can be interacted with in a number of ways; the player may engage them in conversation, marry an eligible NPC, kill them, or engage in a nonlethal "brawl". As in previous The Elder Scrolls games, killing certain NPCs can make some quests or items unobtainable. Some NPCs cannot be killed due to their importance in later storylines. If witnessed, crimes like murder and theft accrue the player a bounty, which is tracked independently in each of Skyrim's nine holds. Should the player be stopped by a guard, they may wipe their bounty with gold or jail time, or may resist arrest which will trigger an aggressive pursuit. NPCs may offer the player additional side-quests, and some side-quests have parameters adjusted based on nearby dungeons which the player has yet to explore.[3][4] Some NPCs who are befriended or hired by the player may act as companions, who will accompany the player and aid them in combat.[5] The player may choose to join factions, which are organized groups of NPCs—for example, the Dark Brotherhood, a band of assassins.[6] Each of the factions has an associated quest path to progress through. Each city and town in the game world has jobs that the player can engage in, such as farming.[7]",
+  "price": 10,
+  "stock": 5
+},
+  {
+  "name": "Sniper Elite 4",
+  "year": 2017 ,
+  "genre": ["Shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/snipe.jpg",
+  "description": "Played from a third-person perspective, it is a tactical shooter with stealth elements. When players kill an enemy using a sniper rifle from a long distance, the X-Ray kill cam system will activate, in which the game's camera follows the bullet from the sniper rifle to the target, and shows body parts, bones or internal body organs being broken or ruptured by the bullet.[1] The system has also been expanded to include shrapnel kills, melee kills and stealth kills.[2]",
+  "price": 10,
+  "stock": 2
+},
+  {
+    "name": "Soul Reaver",
+    "year": 1999 ,
+    "genre": ["RPG"],
+    "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/soulr.jpg",
+    "description": "The player controls Raziel, a disfigured and ghostly vampire. The game is normally shown from a third-person perspective behind Raziel, but players can rotate the viewpoint around him. Gameplay relies largely on shifting between the material and spectral planes of existence to progress through areas. Although interaction with objects is limited in the spectral realm, this can be advantageous, because Raziel can phase through otherwise impassable gates there, and water is insubstantial, allowing him to walk on lakebeds; however, blocks, doors, and switches can be manipulated only in the physical realm.[3] Many puzzles are based on the differences between the two realms; for example, platforms and environment features in one realm may change form to open new paths in the other. Block puzzles are also common and require the rotation, flipping, and moving of large blocks to progress, often with a time limit and while avoiding enemies",
+    "price": 10,
+    "stock": 1
+  },
+  {
+  "name": "Stryder",
+  "year": 2014 ,
+  "genre": ["Arcade"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/stryd.jpg",
+  "description": "The player control the series' main character, Strider Hiryu. The environment is freely explorable in search for weapons and items. Strider Hiryu's main weapon is his Cypher, a plasma weapon that can take several properties.[1] Upgrades for the Cypher can be obtained by exploring Kazakh.[",
+  "price": 10,
+  "stock": 2
+},
+  {
+  "name": "Titanfall 2",
+  "year": 2014 ,
+  "genre": ["Shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/tita2.jpg",
+  "description": "Similar to its predecessor, Titanfall 2 is a first-person shooter game in which players can control both a pilot and their Titans – mecha-style exoskeletons. The pilot has an arsenal of abilities which enhance their efficiency during combat. These abilities include cloaking, zip-lining, and parkour – such as double-jumping and wall-running – with the aid of a jump kit.[1] These movements can be chained together in order to travel between locations quickly.[2][3] The game introduces several new gameplay mechanics: a sliding mechanic, the pulse blade, which is a throwing knife that reveals the location of any nearby enemy, the holo-pilot, a holographic pilot that mimics players' action to confuse enemies, and a grappling hook, which can be used to slingshot players to a building or an enemy it attaches to. The pilots have a large arsenal of gadgets and weapons, such as shotguns, submachine guns, pistols, and grenades to fight against enemies.[4] At close range, players can execute their opponents, and an interruptible execution animation, which shifts to a third-person perspective, will play.[",
+  "price": 10,
+  "stock": 4
+},
+  {
+  "name": "Titanfall",
+  "year": 2014 ,
+  "genre": ["Shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/titan.jpg",
+  "description": "Titanfall is a shooter game played from a first-person perspective. Players fight as free-running foot soldier pilots who can command agile, mech-style exoskeletons—Titans—to complete team-based objectives.[13][14] The game is set on derelict and war-torn colonies at the Frontier fringe of space exploration as either the Interstellar Manufacturing Corporation (IMC) or the Frontier Militia.[15][16] Online multiplayer is the sole game mode, but contains single-player elements such as plot, character dialogue, and non-player characters (NPCs).[17] Titanfall has no offline, single-player, or local splitscreen modes, and does not support system link over a local area network (LAN).[18] Respawn founder Vince Zampella described the game as bringing "scale, verticality, and story" to the first-person shooter genre of multiplayer gaming.",
+  "price": 10,
+  "stock": 3
+},
+  {
+  "name": "Rise of the Tomb Raider",
+  "year": 2016 ,
+  "genre": ["Action"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/tombr.jpg",
+  "description": "Rise of the Tomb Raider is a third-person action-adventure game that features similar gameplay found in 2013's Tomb Raider. Players control Lara Croft through various environments, battling enemies, and completing puzzle platforming sections, while using improvised weapons and gadgets in order to progress through the story.",
+  "price": 1,000,000,
+  "stock": 2
+},
+  {
+  "name": "Wolfenstein 2",
+  "year": 2017 ,
+  "genre": ["Shooter"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/wolf2.jpg",
+  "description": "Wolfenstein II: The New Colossus is an action-adventure shooter game played from a first-person perspective. To progress through the story, players battle enemies throughout levels. The game utilizes a health system in which players' health is divided into separate sections that regenerate; if an entire section is lost, players must use a health pack to replenish the missing health.[2] Players use melee attacks, firearms, and explosives to fight enemies, and may run, jump, and occasionally swim to navigate through the locations. Melee attacks can be used to silently take down enemies without being detected. Alternatively, players can ambush enemies, which often results in an intense firefight between the two parties. Enemy commanders can call for reinforcements several times.",
+  "price": 1,000,000,
+  "stock": 3
+},
+  {
+  "name": "The Legend of Zelda Breath of the Wild",
+  "year": 2017 ,
+  "genre": ["Action"],
+  "picture": "https://github.com/Edxael/Images/blob/master/03-GamePics/zeld3.jpg",
+  "description": "The Legend of Zelda: Breath of the Wild departs from most games in The Legend of Zelda series, as it features an open-world environment, twelve times larger than the overworld in Twilight Princess, with less emphasis on defined entrances and exits to areas.[1] Similar to the original The Legend of Zelda, the player is placed into the game's world with very little instruction, and is allowed to explore freely at their own pace",
+  "price": 1,000,000,
+  "stock": 9
+},
+  {
+  "name": "The Legend of Zelda Wind Walker",
+  "year": 2003 ,
+  "genre": ["Action"],
+  "picture": "",
+  "description": "ike Ocarina of Time and Majora's Mask, The Wind Waker is an open world action-adventure game with role-playing elements. The control scheme is comparable to its predecessors: the player moves the protagonist Link in three dimensions from a third-person perspective.[1] Link fights with a sword and shield, and can use a variety of other items and weapons. He interacts with non-player characters and objects via the action button.[2] Like the previous games, The Wind Waker features a targeting system allowing Link to "lock on" and constantly face an enemy or target.[3] A new feature is the ability to move the camera system around Link.[4] Onscreen meters track Link's health and magic; Link can expand his health meter by finding "heart containers" and container pieces in the game",
+  "price": 1,000,000,
+  "stock": 1,000,000
+},
+  ]
