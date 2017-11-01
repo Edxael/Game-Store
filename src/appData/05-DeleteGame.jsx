@@ -29,17 +29,24 @@ class DeleteGame extends React.Component {
 
 
   render(){
+    const MainSty = { backgroundColor: "gray", height: "100vh" }
+    const mySty = { padding: "10px", textAlign: "left", backgroundColor: "rgba(254, 254, 254, 0.5)", border: "2px solid black" }
+    const labelSty = { margin: "0px auto", display:"block", padding: "15px 0px 0px 15px" }
+    const inputSty = { width: "100%" }
+    const btnSty = { width: "200px", margin: "0px auto", display: "block", height: "45px" }
     return(
-      <div>
+      <div style={MainSty}>
 
         <h2>Delete Game</h2>
         <p>To DELETE a game from the DataBase provide the Game ID then click button <strong>Delete Game</strong></p>
 
-        <form>
-          <div><strong>Game ID: </strong><input type="text" placeholder="Game ID..." value={this.state.name} onChange={ (event) => { this.setState({ id: event.target.value }) } } /></div>
-        </form>
-
-        <button onClick={()=>{this.exe1()}} >Delete Game</button>
+        <div style={mySty}>
+          <form>
+            <div><label style={labelSty}>Name:  </label> <input style={inputSty} type="text" placeholder="Game ID..." value={this.state.name} onChange={ (event) => { this.setState({ id: event.target.value }) } } /></div>
+          </form>
+          <br/>
+          <button style={btnSty} onClick={()=>{this.exe1()}} >Delete Game</button>
+        </div>
 
       </div>
     )

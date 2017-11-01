@@ -7,6 +7,7 @@ import MainComp from './appData/01-Main.jsx'
 
 
 const IndexComp = () => {
+
   return (
     <ApolloProvider client={client}>
      <MainComp/>
