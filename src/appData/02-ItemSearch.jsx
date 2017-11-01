@@ -7,8 +7,8 @@ import Menu from './comps/01-Menu.jsx'
 
 class ISearch extends Component {
   render() {
-    console.log(this.props.data)
-    const { loading, allTeams } = this.props.data
+    console.log(this.props.data.allGames)
+    // const { loading, allGames } = this.props.data
     return(
       <div>
         <div>02-ItemSearch</div>
@@ -20,7 +20,9 @@ class ISearch extends Component {
 
 const QUERY = gql`
   query {
-
+    allGames{
+      name
+    }
   }
 `
 
