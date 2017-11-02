@@ -3,17 +3,18 @@ import { graphql } from 'react-apollo'
 import gql from 'graphql-tag'
 
 const MUTATION = gql`
-  mutation createGame(
+  mutation updateGame(
               $description: String!,
               $genre: String!,
               $name: String!,
               $picture: String!,
               $price: Float!,
               $stock: Int!,
-              $year: Int!
+              $year: Int!,
+              $id: ID!
             )
   {
-    createGame( description: $description, genre: $genre, name: $name, picture: $picture, price: $price, stock: $stock, year: $year ) {
+    updateGame( id: $id, description: $description, genre: $genre, name: $name, picture: $picture, price: $price, stock: $stock, year: $year ) {
       description
       genre
       name
@@ -21,22 +22,25 @@ const MUTATION = gql`
       price
       stock
       year
+      id
     }
   }
 `
 
-class AddNewGame extends React.Component {
+class UpdateGame extends React.Component {
   constructor(props){
     super(props)
-    this.state = { name: "", genre:"", picture:"", year: "", price:"", stock:"", description:"" }
+    this.state = { id: "", name: "", genre:"", picture:"", year: "", price:"", stock:"", description:"" }
   }
 
   exe1 = ()=>{
-    console.log("Add Game executed");
+    console.log("Update Game executed");
     console.log(this.state);
 
     this.props.mutate({
-            variables: {  name:this.state.name ,
+            variables: {
+                          id:this.state.id ,
+                          name:this.state.name ,
                           genre:this.state.genre,
                           picture:`${this.state.picture}?raw=true`,
 
@@ -47,7 +51,7 @@ class AddNewGame extends React.Component {
                           description:this.state.description }
     })
 
-    this.setState({ name: "", genre:"", picture:"", year:"", price:"", stock:"", description:"" })
+    this.setState({ id: "", name: "", genre:"", picture:"", year:"", price:"", stock:"", description:"" })
 
   }
 
@@ -61,11 +65,13 @@ class AddNewGame extends React.Component {
     return(
       <div style={MainSty}>
 
-        <h2>Add Game</h2>
-        <p>To add a game to the DataBase put the information requested then click button <strong>Add Game</strong></p>
+        <h2>Update Game</h2>
+        <p>To Update a game  fill all the files then click: <strong>Update Game</strong></p>
+        <p>Note: All inputs must to be fill or the update will not hapen.</p>
 
         <div style={mySty}>
           <form>
+            <div> <label style={labelSty}>DB-ID:  </label> <input style={inputSty} type="text" placeholder="DataBase ID..." value={this.state.id} onChange={ (event) => { this.setState({ id: event.target.value }) } } /></div>
             <div> <label style={labelSty}>Name:  </label> <input style={inputSty} type="text" placeholder="Name..." value={this.state.name} onChange={ (event) => { this.setState({ name: event.target.value }) } } /></div>
             <div> <label style={labelSty}>Genre:  </label> <input style={inputSty} type="text" placeholder="genre..." value={this.state.genre} onChange={ (event) => { this.setState({ genre: event.target.value }) } } /></div>
             <div> <label style={labelSty}>Picture:  </label> <input style={inputSty} type="text" placeholder="picture..." value={this.state.picture} onChange={ (event) => { this.setState({ picture: event.target.value }) } } /></div>
@@ -78,7 +84,7 @@ class AddNewGame extends React.Component {
 
           <br/>
 
-          <button style={btnSty} onClick={()=>{this.exe1()}} >Add Game</button>
+          <button style={btnSty} onClick={()=>{this.exe1()}} >Update Game</button>
         </div>
 
       </div>
@@ -86,4 +92,4 @@ class AddNewGame extends React.Component {
   }
 }
 
-export default graphql(MUTATION)(AddNewGame)
+export default graphql(MUTATION)(UpdateGame)
