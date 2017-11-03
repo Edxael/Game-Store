@@ -39,16 +39,15 @@ class UpdateGame extends React.Component {
 
     this.props.mutate({
             variables: {
-                          id:this.state.id ,
-                          name:this.state.name ,
+                          id:this.state.id,
+                          name:this.state.name,
                           genre:this.state.genre,
                           picture:`${this.state.picture}?raw=true`,
-
                           year: parseInt(this.state.year, 0),
                           price: parseInt(this.state.price, 0),
                           stock: parseInt(this.state.stock, 0),
-
-                          description:this.state.description }
+                          description:this.state.description
+                        }
     })
 
     this.setState({ id: "", name: "", genre:"", picture:"", year:"", price:"", stock:"", description:"" })

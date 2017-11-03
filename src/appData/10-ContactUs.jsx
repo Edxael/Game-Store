@@ -4,7 +4,7 @@ export default class extends Component {
   render() {
     return(
       <div>
-        <div>03-Item-Full-Page</div>
+        <h1> Contact Us </h1>
       </div>
     )
   }
