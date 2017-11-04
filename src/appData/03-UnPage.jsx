@@ -19,7 +19,7 @@ class Child extends Component {
   exe2 = ()=>{
     console.log("Helo ")
     console.log(this.props.data.Game.name)
-    const mainSty = { margin: "0px 25%" }
+    const mainSty = { margin: "0px 25%", backgroundColor: "rgba(119, 247, 255, 0.5)", padding: "25px" }
     const imgStyl = { width: "320px", height: "430px" }
     const infoSty = { textAlign: "left", padding: "0px 10px" }
     const lineSty = { backgroundColor: "black", height: "3px" }
@@ -74,8 +74,10 @@ class Child extends Component {
     console.log(Game);
     // const dataBox = { textAlign: "left", border: "2px solid black", padding: "7px", backgroundColor: "rgb(251, 255, 177)" }
     // const linkReturn = { border: "2px solid black", padding: "4px 6px", backgroundColor: "rgb(141, 254, 52)" }
+    const gralSty = { backgroundColor: "rgba(192, 174, 242, 0.5)", padding: "25px", width: "80%", margin: "0px auto" }
+    const buttSty = { width: "20%", margin: "15px" }
     return (
-      <div>
+      <div style={gralSty}>
         <h1>Game Info Info</h1>
         <br/>
         <button onClick={this.exe1}>Show Game Data</button>
@@ -85,7 +87,7 @@ class Child extends Component {
 
         { this.state.added ? <h2>Added to your cart</h2> : <div></div> }
 
-        <button onClick={this.exe3}>Add To Cart</button>
+        <button style={buttSty} onClick={this.exe3}>Add To Cart</button>
 
 
 

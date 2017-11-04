@@ -49,7 +49,7 @@ class MyCart extends Component {
     const PicStyle = { height:"150px", width: "auto" }
     const InfoSty = { padding: "10px", textAlign: "left" }
     const Items = { width: "70%" }
-    const Totals = { width: "30%", border: "2px solid black", margin:"10px", backgroundColor: "rgba(129, 251, 255, 0.5)", padding: "0px 15px" }
+    const Totals = { width: "30%", border: "2px solid black", margin:"10px", backgroundColor: "rgba(119, 247, 255, 0.5)", padding: "0px 15px" }
     const totLines = { display: "flex", justifyContent: "space-between", padding: "0px 10px"}
     const ordsub = { backgroundColor: "rgba(111, 251, 0, 0.5)" }
     return(

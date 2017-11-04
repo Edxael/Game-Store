@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 
 class Template extends React.Component {
   render() {
-    // const myStl = { textAlign: "left", padding: "8px 20px", border: "2px solid black", margin: "6px 0px", backgroundColor: "rgb(245, 232, 120)" }
-    const ContStyle = { border: "2px solid black", padding:"7px", margin:"10px", display: "flex", backgroundColor: "rgba(254, 254, 254, 0.5)" }
+    const ContStyle = { width: "70%", border: "2px solid black", padding:"7px", margin:"10px auto", display: "flex", backgroundColor: "rgba(119, 247, 255, 0.5)" }
     const PicStyle = { height:"150px", width: "auto" }
     const InfoSty = { padding: "10px", textAlign: "left" }
     return(

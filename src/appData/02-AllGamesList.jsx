@@ -9,7 +9,7 @@ class ISearch extends Component {
     console.log(this.props.data)
     const { loading, allGames } = this.props.data
 
-    const ContStyle = { border: "2px solid black", padding:"7px", margin:"10px", display: "flex", backgroundColor: "rgba(254, 254, 254, 0.5)" }
+    const ContStyle = { border: "2px solid black", padding:"7px", margin:"10px", display: "flex", backgroundColor: "rgba(119, 247, 255, 0.5)" }
     const PicStyle = { height:"150px", width: "auto" }
     const InfoSty = { padding: "10px", textAlign: "left" }
 

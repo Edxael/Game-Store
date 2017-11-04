@@ -11,18 +11,10 @@ class ISearch extends Component {
     this.state = { query: "" }
   }
 
-  // handleChange(){
-  //   console.log(this.props.data.allGames);
-  //   const { loading, allGames } = this.props.data
-  //   (!loading && allGames)
-  //   .filter((game)=>{ return ( (`${game.name} ${game.year} ${game.genre} ${game.price}`).toLowerCase().includes(this.state.query.toLowerCase()) ) })
-  //   .map((game)=>{ return( <Template key={game.id} name={game.name} genre={game.genre} year={game.year} pic={game.picture} price={game.price} stock={game.stock} /> ) })
-  // }
-
   render() {
     console.log(this.props.data.allGames);
     const { loading, allGames } = this.props.data
-    const inputSt = { backgroundColor: "rgb(200, 184, 247)", width: "90%", height: "40px", marginBottom: "10px", paddingLeft: "7px" }
+    const inputSt = { backgroundColor: "rgb(200, 184, 247)", width: "50%", height: "40px", marginBottom: "10px", paddingLeft: "7px" }
 
     return(
       <div>

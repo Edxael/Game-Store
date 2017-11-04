@@ -9,8 +9,8 @@ import MainComp from './appData/00-Main.jsx'
 const IndexComp = () => {
 
   return (
-    <ApolloProvider client={client}>
-     <MainComp/>
+    <ApolloProvider client={client} >
+     <MainComp />
     </ApolloProvider>
   )
 }

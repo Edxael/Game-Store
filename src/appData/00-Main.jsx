@@ -4,19 +4,18 @@ import { Nav, NavItem } from 'reactstrap';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 
+
 import Home from './01-Home.jsx'
-import AllGamesList from './02-AllGamesList.jsx'
-import AddGame from './04-AddGame.jsx'
-import DelGame from './05-DeleteGame.jsx'
-import UpdateGame from './06-Update.jsx'
 import SearchGame from './07-SearchGames.jsx'
-import UniPage from './03-UnPage.jsx'
 import MyCart from './09-MyCart.jsx'
+import UniPage from './03-UnPage.jsx'
 
 import ContacUs from './10-ContactUs.jsx'
 import AboutUs from './11-AboutUs.jsx'
 import Admin1 from './12-Admin-1.jsx'
 import Admin2 from './13-Admin-2.jsx'
+
+
 
 
 
@@ -56,11 +55,6 @@ export default class extends Component {
                 <Route path="/5" component={Admin1}/>
                 <Route path="/6" component={Admin2}/>
 
-                <Route path="/7" component={AllGamesList}/>
-                <Route path="/8" component={AddGame}/>
-                <Route path="/9" component={UpdateGame}/>
-                <Route path="/10" component={DelGame}/>
-
                 <Route path="/:id" component={UniPage} />
               </Switch>
 
@@ -74,11 +68,3 @@ export default class extends Component {
     )
   }
 }
-
-
-
-
-// <NavItem> <Link style={btn1} to="/7">All Games</Link> </NavItem>
-// <NavItem> <Link style={btn1} to="/8">Add Game</Link> </NavItem>
-// <NavItem> <Link style={btn1} to="/9">Update Game</Link> </NavItem>
-// <NavItem> <Link style={btn1} to="/10">Delete Game</Link> </NavItem>
