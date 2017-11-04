@@ -49,12 +49,10 @@ export default class extends Component {
                 <Route exact path="/" component={Home}/>
                 <Route path="/1" component={SearchGame}/>
                 <Route path="/2" component={MyCart}/>
-
                 <Route path="/3" component={ContacUs}/>
                 <Route path="/4" component={AboutUs}/>
                 <Route path="/5" component={Admin1}/>
                 <Route path="/6" component={Admin2}/>
-
                 <Route path="/:id" component={UniPage} />
               </Switch>
 

@@ -10,7 +10,7 @@ export default class extends Component {
 
         <img src={gameImg1} alt="Missing Picture"/>
 
-        <p>Get your Games and Gear-Up</p>
+        <p>Get your Games and Gear-Up br/e404/2:13</p>
       </div>
     )
   }

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { graphql } from 'react-apollo'
 import gql from 'graphql-tag'
 import Template from './08-Template.jsx'
+import * as Cart from './locStorage/cart.js'
 
 
 
@@ -14,6 +15,7 @@ class ISearch extends Component {
   render() {
     console.log(this.props.data.allGames);
     const { loading, allGames } = this.props.data
+    Cart.add('aGa', allGames )
     const inputSt = { backgroundColor: "rgb(200, 184, 247)", width: "50%", height: "40px", marginBottom: "10px", paddingLeft: "7px" }
 
     return(
@@ -27,7 +29,7 @@ class ISearch extends Component {
           {
             !loading && allGames
             .filter((game)=>{ return ( (`${game.name} ${game.year} ${game.genre} ${game.price}`).toLowerCase().includes(this.state.query.toLowerCase()) ) })
-            .map((game)=>{ return( <Template key={game.id} id2={game.id} name={game.name} genre={game.genre} year={game.year} pic={game.picture} price={game.price} stock={game.stock} /> ) })
+            .map((game)=>{ return( <Template key={game.id} id={game.id} name={game.name} genre={game.genre} year={game.year} pic={game.picture} price={game.price} stock={game.stock} /> ) })
           }
 
       </div>

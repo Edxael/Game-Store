@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Nav, NavItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 class Template extends React.Component {
@@ -19,7 +21,8 @@ class Template extends React.Component {
           <div><strong>Year: </strong>{this.props.year}</div>
           <div><strong>Price: </strong>{this.props.price}</div>
           <div><strong>In-Stock: </strong>{this.props.stock}</div>
-          <div><strong>More Info: </strong><Link to={"/" + this.props.id2} target="_blank" >LINK</Link></div>
+          <div><strong>More Info..: </strong><Link to={`/${this.props.id}`}>LINK</Link></div>
+
         </div>
 
       </div>
@@ -28,3 +31,6 @@ class Template extends React.Component {
 }
 
 export default Template;
+
+
+          // <div><strong>More Info: </strong><Link to={"/" + this.props.id} target="_blank" >LINK</Link></div>

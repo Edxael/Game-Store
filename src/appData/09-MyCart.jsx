@@ -43,7 +43,6 @@ class MyCart extends Component {
 
 
 
-
     const twoPillars = { display: "flex", width: "75%", margin: "0px auto" }
     const ContStyle = { border: "2px solid black", padding:"7px", margin:"10px", display: "flex", backgroundColor: "rgba(254, 254, 254, 0.5)" }
     const PicStyle = { height:"150px", width: "auto" }
