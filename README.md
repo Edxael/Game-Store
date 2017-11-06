@@ -1,17 +1,24 @@
-# Game store
+# Game Store
 
-this is the place for the store
+Basic proof of consept for a online store.
 
-FullStackTutorila GraphQL (Gooood)
-https://www.howtographql.com/
-https://www.howtographql.com/basics/1-graphql-is-the-better-rest/
+Live App link: [www.GameStore.mycode.website](http://gamestore.mycode.website/)
 
-GraphCool PlayGround:
-https://console.graph.cool/GameStore/playground
+![Screen Shoot](/src/appData/img/ss1.png)
 
 
-Location of documentation:
-https://www.graph.cool/docs/quickstart/
+### This project was created using:
 
-Graph.cool Video Tutorial:
-https://www.youtube.com/watch?v=xmri5pNR9-Y
+- React.js
+- Apollo Client
+- GraphQL / Grap.cool
+
+This is just a proof of consept and more updates are to come.
+
+----
+
+   ---  Edmundo Rubio  ---
+
+Portfolio: www.mycode.website
+
+Resume: www.edmundorubio.site
