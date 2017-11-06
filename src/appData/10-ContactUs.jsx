@@ -5,11 +5,8 @@ export default class extends Component {
 
   exe1 = () => {
     console.log("Mesage Sent exe1");
-
     this.setState({ show: true })
-
     setTimeout( ()=>{this.setState({ show: false })} , 3500 )
-
   }
 
   render() {
@@ -32,7 +29,7 @@ export default class extends Component {
 
               <div style={mySty}>
                 <h1>Thansk for your mesage.</h1>
-                <h3>We will contact you shortly</h3>
+                <h3>We will contact you shortly.</h3>
               </div>
 
               :

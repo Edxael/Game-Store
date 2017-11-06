@@ -56,7 +56,7 @@ export default class extends Component {
                 <Route path="/:id" component={UniPage} />
               </Switch>
 
-              <br/><br/>
+              
               <hr style={ brSty } />
               <div> <Link to="/3">Contact-Us</Link> | <Link to="/4">About-Us</Link> | <Link to="/5">Admin</Link> </div>
           </div>

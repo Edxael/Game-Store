@@ -42,17 +42,18 @@ class MyCart extends Component {
 
 
 
-
+    const pageSty = { border: "2px solid white", backgroundColor: "rgba(254, 254, 254, 0.5)", width: "75%", margin: "0px auto", padding: "15px" }
     const twoPillars = { display: "flex", width: "75%", margin: "0px auto" }
-    const ContStyle = { border: "2px solid black", padding:"7px", margin:"10px", display: "flex", backgroundColor: "rgba(254, 254, 254, 0.5)" }
+    const ContStyle = { border: "2px solid black", padding:"7px", margin:"10px", display: "flex", backgroundColor: "rgba(194, 172, 255, 0.5)" }
     const PicStyle = { height:"150px", width: "auto" }
     const InfoSty = { padding: "10px", textAlign: "left" }
     const Items = { width: "70%" }
     const Totals = { width: "30%", border: "2px solid black", margin:"10px", backgroundColor: "rgba(119, 247, 255, 0.5)", padding: "0px 15px" }
     const totLines = { display: "flex", justifyContent: "space-between", padding: "0px 10px"}
     const ordsub = { backgroundColor: "rgba(111, 251, 0, 0.5)" }
+    const secondSty = { height: "257px", border: "2px solid black", paddingTop:"100px", margin:"10px", backgroundColor: "rgba(194, 172, 255, 0.5)" }
     return(
-      <div>
+      <div style={pageSty}>
 
         { this.state.submit ? <h1 style={ordsub}>Your Order has been Submited</h1> : <h1>My Shoping Cart</h1> }
 
@@ -60,8 +61,8 @@ class MyCart extends Component {
 
           <div style={Items}>
             {
-              (Cart.get('cart') === []) ?
-                <h2>No Items in your Cart.</h2>
+              (Cart.get('cart').length === 0 ) ?
+                <h2 style={secondSty}>No Items in your Cart.</h2>
 
               :
 
@@ -95,6 +96,7 @@ class MyCart extends Component {
               <div style={totLines}><div>Discouts:</div><div>-$0.00</div></div>
               <hr/>
               <div style={totLines}><div>Final Total:</div><div>$ { finalTotal }</div></div>
+              <br/>
             </div>
           </div>
 

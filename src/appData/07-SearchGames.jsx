@@ -17,10 +17,10 @@ class ISearch extends Component {
     const { loading, allGames } = this.props.data
     Cart.add('aGa', allGames )
     const inputSt = { backgroundColor: "rgb(200, 184, 247)", width: "50%", height: "40px", marginBottom: "10px", paddingLeft: "7px" }
-
+    const pageSty = { border: "2px solid white", backgroundColor: "rgba(254, 254, 254, 0.5)", width: "75%", margin: "0px auto", padding: "15px" }
     return(
-      <div>
-        <h2>Search Game</h2>
+      <div style={pageSty}>
+        <h2>Search Games</h2>
           <p><strong>To find a Game type one of the following:</strong> Name, Genre, Year, Price</p>
 
           <input style={inputSt} type="search" placeholder="Seach Here..." value={this.state.query}

@@ -4,11 +4,13 @@ import imgCJ from './img/cj1.jpg'
 
 export default class extends Component {
   render() {
+    const pageSty = { border: "2px solid white", backgroundColor: "rgba(254, 254, 254, 0.5)", width: "75%", margin: "0px auto", padding: "15px" }
     const autors = { display: "flex", justifyContent: "center" }
     const profile = { margin: "0px 10px" }
     const picSty = { width: "213px", height: "213px", border: "4px solid white" }
+    const listStyle = { textAlign: "left", width: "25%", marginLeft: "36%" }
     return(
-      <div>
+      <div style={pageSty}>
         <h1> About Us </h1>
         <p>This site was developed by:</p>
 
@@ -44,6 +46,18 @@ export default class extends Component {
             </div>
           </div>
         </div>
+
+        <hr/>
+
+      <h3>This site was create using:</h3>
+
+      <div style={listStyle}>
+        <ol>
+          <li>React.js</li>
+          <li>Apollo Client</li>
+          <li>GraphQL / Graph.cool</li>
+        </ol>
+      </div>
 
       </div>
     )
